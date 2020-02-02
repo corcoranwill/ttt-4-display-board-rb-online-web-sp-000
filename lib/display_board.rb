@@ -3,7 +3,7 @@
 
 def display_board(board_array)
   # read board_array
-  # print out a multi-line board 
+  # print out a multi-line board
 end
 
 
