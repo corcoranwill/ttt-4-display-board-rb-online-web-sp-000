@@ -8,8 +8,17 @@ def display_board(board)
   print "|"
   puts board[2]
   puts "-----------"
-  # read board_array
-  # print out a multi-line board
+  print board[3]
+  print "|"
+  print board[4]
+  print "|"
+  puts board[5]
+  puts "-----------"
+  print board[6]
+  print "|"
+  print board[7]
+  print "|"
+  puts board[8]
 end
 
 
