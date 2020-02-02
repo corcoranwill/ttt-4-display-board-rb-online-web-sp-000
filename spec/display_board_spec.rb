@@ -222,6 +222,6 @@ describe "#display_board in 'lib/display_board.rb" do
 
 
 
-    
+
   end
 end
