@@ -2,7 +2,7 @@
 # out the current state.
 
 def display_board(board)
-  print board[0]
+  print " #{board[0]} "
   print "|"
   print board[1]
   print "|"
