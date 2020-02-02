@@ -6,7 +6,7 @@ def display_board(board)
   print "|"
   print board[1]
   print "|"
-  print board[2]
+  puts board[2]
   puts "-----------"
   # read board_array
   # print out a multi-line board
