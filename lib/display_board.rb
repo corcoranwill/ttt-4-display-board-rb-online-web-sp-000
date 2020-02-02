@@ -13,5 +13,6 @@ def display_board(board_array)
 end
 
 
-
 def board_array = ["   ", "   ", "   ", "   ", "   ", "   ", "   ", "   ", "   "]
+
+display_board(board_array)
