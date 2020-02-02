@@ -215,7 +215,30 @@ describe "#display_board in 'lib/display_board.rb" do
       expect(rows[4]).to eq(" X | X | X ")
     end
 
+    it 'prints an entire board full of Xs' do
+      board = ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
 
+      output = capture_puts{ display_board(board) }
+      rows = output.split("\n")
+
+      expect(rows[0]).to eq(" O | O | O ")
+      expect(rows[1]).to eq("-----------")
+      expect(rows[2]).to eq(" O | O | O ")
+      expect(rows[3]).to eq("-----------")
+      expect(rows[4]).to eq(" O | O | O ")
+
+
+      board = ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+
+      output = capture_puts{ display_board(board) }
+      rows = output.split("\n")
+
+      expect(rows[0]).to eq(" O | O | O ")
+      expect(rows[1]).to eq("-----------")
+      expect(rows[2]).to eq(" O | O | O ")
+      expect(rows[3]).to eq("-----------")
+      expect(rows[4]).to eq(" O | O | O ")
+    end
 
 
 
