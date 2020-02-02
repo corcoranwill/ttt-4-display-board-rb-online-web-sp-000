@@ -6,19 +6,19 @@ def display_board(board)
   print "|"
   print " #{board[1]} "
   print "|"
-  puts " #{board[2]} "]
+  puts " #{board[2]} "
   puts "-----------"
   print " #{board[3]} "
   print "|"
   print " #{board[4]} "
   print "|"
-  puts " #{board[5]} "]
+  puts " #{board[5]} "
   puts "-----------"
   print " #{board[6]} "
   print "|"
   print " #{board[7]} "
   print "|"
-  puts " #{board[8]} "]
+  puts " #{board[8]} "
 end
 
 
